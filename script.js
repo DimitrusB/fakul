@@ -152,4 +152,23 @@
 //   str +='-';
 // }
 // console.log(str);
+// ============================================
+// let num=10;
+// for ( ; num<= 1000 ; num++){
+//   console.log(num)
+// }
+// ============================================
+// let num = 0;
+// for (i=num ; i<=1000 ; i++){
+//   num  += i;
+//   console.log(num);
+// }
+// ============================================
+// for( let i=10 ; i<=1000 ; i++){
+//   let str = String(i);
 
+//   if (str[0] === '1'){
+//     console.log(str);
+//   }
+// }
+// ============================================https://code.mu/ru/javascript/book/prime/loops/numbers-digits/
