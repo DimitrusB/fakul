@@ -153,15 +153,16 @@
 // }
 // console.log(str);
 // ============================================
-// let num=10;
-// for ( ; num<= 1000 ; num++){
-//   console.log(num)
+
+// for ( i=10; i<= 1000 ; i++){
+//   let num=String(i);
+//   console.log(num[0])
 // }
 // ============================================
-// let num = 0;
-// for (i=num ; i<=1000 ; i++){
-//   num  += i;
-//   console.log(num);
+// for (i=10 ; i<=1000 ; i++){
+//   let num = String(i);
+//   res = Number(num[0]) + Number(num[1]); 
+//   console.log(res);
 // }
 // ============================================
 // for( let i=10 ; i<=1000 ; i++){
@@ -171,4 +172,14 @@
 //     console.log(str);
 //   }
 // }
-// ============================================https://code.mu/ru/javascript/book/prime/loops/numbers-digits/
+// ============================================
+
+// for (i=10 ; i<=1000 ; i++){
+//   let str = String(i);
+//   if (Number(str[0]) + Number(str[1])  === 5 ){
+
+//     console.log(str);
+//   }
+
+// }
+// ============================================https://code.mu/ru/javascript/book/prime/loops/break/============================================
